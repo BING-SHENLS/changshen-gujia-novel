@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>長生顧家 — 小說閱讀器</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <h1>長生顧家</h1>
+    <div class="subtitle">玄幻二創小說</div>
+  </div>
+  <nav class="sidebar-nav" id="sidebarNav"></nav>
+</aside>
+
+<!-- Toggle -->
+<button class="sidebar-toggle" id="sidebarToggle" title="收合目錄">◀</button>
+
+<!-- Main -->
+<main class="main-content" id="mainContent">
+  <div class="top-bar">
+    <span class="font-label">字體</span>
+    <button class="font-btn" id="fontDown" title="縮小字體">A-</button>
+    <button class="font-btn" id="fontUp" title="放大字體">A+</button>
+  </div>
+  <div class="article-wrap" id="articleWrap">
+    <div class="empty-state">請從左側目錄選擇章節</div>
+  </div>
+</main>
+
+<script src="js/chapters.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
